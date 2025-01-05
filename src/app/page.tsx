@@ -1,9 +1,10 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import ThemeButton from "@/components/ui/themeButton";
 
 export default function HomePage() {
   return (
-    <main className="bg-primary flex min-h-screen flex-col items-center justify-center text-white">
+    <main className="flex min-h-screen flex-col items-center justify-center bg-primary text-white">
       <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16">
         <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
           Create <span className="text-[hsl(280,100%,70%)]">T3</span> App
@@ -30,9 +31,10 @@ export default function HomePage() {
               Learn more about Create T3 App, the libraries it uses, and how to
               deploy it.
             </div>
-            <Button variant="default" text="Action" className="something" />
+            <Button variant="default" className="something" />
           </Link>
         </div>
+        <ThemeButton />
       </div>
     </main>
   );

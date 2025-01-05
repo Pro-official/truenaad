@@ -1,5 +1,5 @@
 // import { Link, useLocation, useNavigate } from "react-router-dom";
-import { Lightbulb, Menu } from "lucide-react";
+import { Menu, AudioLines } from "lucide-react";
 import Link from "next/link";
 // import { useAuth } from "../hooks/useAuth";
 
@@ -19,9 +19,9 @@ export default function Navbar() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             <Link href="/" className="flex flex-shrink-0 items-center">
-              <Lightbulb className="h-8 w-8 text-purple-500" />
+              <AudioLines className="h-8 w-8 text-purple-500" />
               <span className="ml-2 bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-xl font-bold text-transparent">
-                IdeaShare
+                TrueNaad
               </span>
             </Link>
 
