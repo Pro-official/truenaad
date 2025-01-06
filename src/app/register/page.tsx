@@ -98,6 +98,7 @@ export default function RegisterPage() {
 
   return (
     <>
+      {/*  */}
       <Form {...form}>
         <form className="mx-auto min-h-screen max-w-3xl space-y-8 border border-white/10 bg-white/5 p-8 py-10 pb-12 pt-24 backdrop-blur-lg">
           <div className="grid grid-cols-12 gap-4">
